@@ -1,6 +1,7 @@
 import React from "react";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Home from "../pages/Home";
 
 export default function LayoutRoutes() {
   return (
@@ -10,7 +11,10 @@ export default function LayoutRoutes() {
           <Navbar />
         </div>
 
-        <Routes></Routes>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/*" element={<Home/>}/>
+        </Routes>
       </BrowserRouter>
     </div>
   );
