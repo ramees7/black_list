@@ -56,7 +56,7 @@ export default function Navbar() {
       )}
       <div
         ref={sidebarRef}
-        className={`fixed top-0 left-0 w-72 px-2 bg-white h-full shadow-lg transform ${
+        className={`fixed top-0 left-0 w-72 px-2 bg-white h-screen shadow-lg transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out lg:hidden z-50`}
       >
@@ -70,7 +70,7 @@ export default function Navbar() {
             <HiOutlineXMark />
           </button>
         </div>
-        <div className="bg-white h-[600px]">
+        <div className="bg-white ">
           <ul className="flex flex-col justify-center items-start p-4 font-bold text-lg space-y-4 ">
             {navLinks?.map((item) => (
               <Link to={`${item.link}`}>
