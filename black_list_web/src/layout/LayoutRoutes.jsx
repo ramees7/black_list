@@ -30,7 +30,7 @@ export default function LayoutRoutes() {
     <div>
       <BrowserRouter>
         <div
-          className={`sticky top-0 w-full z-50 transition-transform duration-1000 xl:px-48 lg:px-36 md:px-12 px-5 bg-white ${
+          className={`sticky top-0 w-full z-50 transition-transform duration-1000 xl:px-48 lg:px-20 md:px-12 px-5 bg-white ${
             showHeaderNav ? "translate-y-0" : "-translate-y-full"
           }`}
         >

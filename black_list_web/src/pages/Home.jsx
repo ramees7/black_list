@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HomeLanding from "../components/Home/HomeLanding";
 import DiscoverList from "../components/Home/DiscoverList";
+import HowWorks from "../components/Home/HowWorks";
+import PartnersCarousel from "../components/Home/PartnersCarousel";
 
 export default function Home() {
+  const handleToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(()=>{
+    handleToTop()
+  },[])
   return (
     <div>
       <HomeLanding />
-      <div className="xl:px-48 lg:px-36 md:px-12 px-5 bg-white py-20">
+      <div className="xl:px-48 lg:px-20 md:px-12 px-10 bg-white py-20">
         <DiscoverList />
+        <HowWorks/>
+        <PartnersCarousel/>
       </div>
     </div>
   );

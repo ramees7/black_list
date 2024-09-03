@@ -60,7 +60,7 @@ export default function Navbar() {
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out lg:hidden z-50`}
       >
-        <div className="flex justify-around py-5">
+        <div className="flex justify-around py-5 ">
           <div className="py-3 px-4 bg-[#537cd9] font-semibold text-lg text-white rounded">
             <Link to={"/report"}>
               <button className="py-2 px-4">Repost Fraud +</button>
@@ -70,13 +70,15 @@ export default function Navbar() {
             <HiOutlineXMark />
           </button>
         </div>
-        <ul className="flex flex-col justify-center items-start p-4 font-bold text-lg space-y-4">
-          {navLinks?.map((item) => (
-            <Link to={`${item.link}`}>
-              <li>{item.title}</li>
-            </Link>
-          ))}
-        </ul>
+        <div className="bg-white h-[600px]">
+          <ul className="flex flex-col justify-center items-start p-4 font-bold text-lg space-y-4 ">
+            {navLinks?.map((item) => (
+              <Link to={`${item.link}`}>
+                <li>{item.title}</li>
+              </Link>
+            ))}
+          </ul>
+        </div>
       </div>
       {/* Navbar */}
       <div className="grid grid-cols-12 xl:gap-x-10 lg:gap-x-5 px-4 py-3 bg-white">
