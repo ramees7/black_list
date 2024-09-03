@@ -56,14 +56,14 @@ export default function Navbar() {
       )}
       <div
         ref={sidebarRef}
-        className={`fixed top-0 left-0 w-64 px-2 bg-white h-full shadow-lg transform ${
+        className={`fixed top-0 left-0 w-72 px-2 bg-white h-full shadow-lg transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out lg:hidden z-50`}
       >
         <div className="flex justify-around py-5">
           <div className="py-3 px-4 bg-[#537cd9] font-semibold text-lg text-white rounded">
             <Link to={"/report"}>
-              <button className="py-3 px-4">Repost Fraud +</button>
+              <button className="py-2 px-4">Repost Fraud +</button>
             </Link>
           </div>
           <button className=" text-3xl" onClick={toggleSidebar}>
