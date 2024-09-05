@@ -73,7 +73,7 @@ export default function Navbar() {
         <div className="bg-white ">
           <ul className="flex flex-col justify-center items-start p-4 font-bold text-lg space-y-4 ">
             {navLinks?.map((item) => (
-              <Link to={`${item.link}`}>
+              <Link to={`${item.link}`} key={item.link}>
                 <li>{item.title}</li>
               </Link>
             ))}
