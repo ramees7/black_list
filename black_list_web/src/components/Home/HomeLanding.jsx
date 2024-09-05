@@ -69,7 +69,7 @@ export default function HomeLanding() {
           backgroundImage: `url(https://chargebacks911.com/wp-content/uploads/2019/12/cb911-blog-3.jpg)`,
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+        <div className="absolute inset-0 bg-black opacity-25"></div>{" "}
         {/* Overlay */}
         <div className="relative z-10 text-center text-white ">
           <div className="md:text-6xl text-4xl font-extrabold mb-6">

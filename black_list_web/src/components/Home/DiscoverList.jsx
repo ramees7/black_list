@@ -56,7 +56,7 @@ export default function DiscoverList() {
           Fraud, scams, and bad business practices.
         </h2>
         <h1 className="text-4xl font-bold mx-auto text-center">
-          Discover Bangladesh Blacklist
+          Discover Maldives Blacklist
         </h1>
       </div>
       <div className="pt-16 grid grid-cols-12 gap-8">
