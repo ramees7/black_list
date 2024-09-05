@@ -35,16 +35,16 @@ export default function WhyUs() {
           <div className="md:block hidden">
             <div className="flex gap-x-4 ">
               <button
-                onClick={prevSlide}
+                // onClick={prevSlide}
                 className="p-4 bg-yellow-500 rounded-lg"
               >
-                <FaArrowLeft />
+                {/* <FaArrowLeft /> */}
               </button>
               <button
-                onClick={nextSlide}
+                // onClick={nextSlide}
                 className="p-4 bg-yellow-500 rounded-lg"
               >
-                <FaArrowRight />
+                {/* <FaArrowRight /> */}
               </button>
             </div>
           </div>
