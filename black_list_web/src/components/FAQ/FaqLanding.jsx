@@ -1,15 +1,15 @@
 import React from "react";
-import aboutBg from "../../assets/images/about_banner.jpg";
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
+import faqBg from "../../assets/images/faq_banner.jpg";
 
-export default function AboutLanding() {
+export default function FaqLanding() {
   return (
     <>
       <div
         className="relative xl:px-48 lg:px-20 md:px-12 px-10 "
         style={{
-          backgroundImage: `url(${aboutBg})`,
+          backgroundImage: `url(${faqBg})`,
           backgroundSize: "cover",
           height: "200px",
         }}
@@ -18,7 +18,7 @@ export default function AboutLanding() {
 
         <div className="relative z-10  h-[80%] flex items-center lg:justify-normal justify-center">
           <h1 className="lg:text-6xl text-4xl font-semibold text-white lg:text-left text-center">
-            <span className="text-yellow-500">About</span> Bangladesh Blacklist
+            Read <span className="text-yellow-500">FAQ</span>'s
           </h1>
         </div>
         <div className="relative z-10 text-center h-[20%] flex items-end border-0 lg:justify-normal justify-center">
@@ -29,7 +29,7 @@ export default function AboutLanding() {
               </h2>
             </Link>
             <IoIosArrowForward className="text-yellow-500" />
-            <h2 className="text-gray-500">About</h2>
+            <h2 className="text-gray-500">FAQ</h2>
           </div>
         </div>
       </div>

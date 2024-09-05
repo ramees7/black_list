@@ -21,7 +21,7 @@ export default function About() {
   return (
     <div>
       <AboutLanding />
-      <div className="xl:px-48 lg:px-20 md:px-12 px-10 bg-white py-20">
+      <div className="xl:px-48 lg:px-20 md:px-12 px-10 bg-[#f2f2f2] py-20">
         <WhyUs />
         <DetailBox />
         <div className="pt-20">

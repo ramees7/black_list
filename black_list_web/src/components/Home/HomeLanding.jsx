@@ -78,7 +78,7 @@ export default function HomeLanding() {
               Against <span className="text-red-500">Fraud.</span>
             </h1>
           </div>
-          <div className="bg-[#eaeaea] flex justify-between md:flex-nowrap flex-wrap md:h-[80px] h-fit md:gap-y-0 gap-y-3 text-black items-center p-3 gap-x-3 rounded-lg md:w-[700px] w-[80%] mx-auto">
+          <div className="bg-[#f2f2f2] flex justify-between md:flex-nowrap flex-wrap md:h-[80px] h-fit md:gap-y-0 gap-y-3 text-black items-center p-3 gap-x-3 rounded-lg md:w-[700px] w-[80%] mx-auto">
             <div className="flex items-center gap-x-4 border-2 md:h-full h-[60px] rounded-lg px-2 md:w-[45%] w-[100%] bg-[#fff]">
               <TbBulb className="text-3xl" />
               <input

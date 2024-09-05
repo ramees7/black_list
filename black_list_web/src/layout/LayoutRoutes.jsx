@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import Footer from "../components/Footer";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import FAQ from "../pages/FAQ";
 
 export default function LayoutRoutes() {
   const [showHeaderNav, setShowHeaderNav] = useState(true);
@@ -43,6 +44,7 @@ export default function LayoutRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="/*" element={<Home />} />
         </Routes>
         <Footer />
