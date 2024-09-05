@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import ContactLanding from '../components/Contact/ContactLanding';
 
 export default function Contact() {
   const handleToTop = () => {
@@ -12,6 +13,8 @@ export default function Contact() {
     handleToTop()
   },[])
   return (
-    <div>Contact</div>
+    <div>
+      <ContactLanding/>
+    </div>
   )
 }

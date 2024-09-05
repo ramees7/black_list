@@ -22,14 +22,13 @@ export default function PartnersCarousel() {
   }, [windowWidth]);
 
   const logos = [
-    "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
-    "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
-    "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
-    "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
-    "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg",
-    "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
-    "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
-    "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg",
+    "https://bdblacklist.com/wp-content/uploads/2024/06/dncrp-bdblacklist-150x150.png",
+    "https://bdblacklist.com/wp-content/uploads/2024/06/ICT-bdblacklist-150x150.png",
+    "https://bdblacklist.com/wp-content/uploads/2024/06/idea-bdblacklist-150x150.png",
+    "https://bdblacklist.com/wp-content/uploads/2024/06/cirt-bdblacklist-150x150.png",
+    "https://bdblacklist.com/wp-content/uploads/2024/06/dmp-bdblacklist-150x150.png",
+    "https://bdblacklist.com/wp-content/uploads/2024/06/cid-bdblacklist-150x150.png",
+    "https://bdblacklist.com/wp-content/uploads/2024/06/nsi-bdblacklist-150x150.png",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -81,7 +80,7 @@ export default function PartnersCarousel() {
                 <img
                   src={logo}
                   alt={`Partner logo ${index}`}
-                  className=" h-full transition-all duration-500 ease-in-out w-[280px]"
+                  className=" h-full transition-all duration-500 ease-in-out w-[200px]"
                 />
               </div>
             ))}
